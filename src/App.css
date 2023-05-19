@@ -1,0 +1,212 @@
+
+#title {
+  background-color:darkcyan;
+  height: 60px;
+  width: 100%;
+  margin-top: 0;
+  text-align:center ;
+  font-size: 24px;
+  font-family: cursive;
+  font-weight: normal;
+  color: white;
+  font-style: italic;
+  padding-top: 25px;
+ 
+}
+body{
+  background-color: darkgrey;
+}
+
+
+.inputbox {
+  margin-left: 20%;
+  background-color: white;
+}
+
+#input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(9, 207, 234);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#btn {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(9, 207, 234);
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.boxes {
+  gap: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+#div {
+  float: left;
+  overflow:auto;
+}
+
+.box1 {
+  background: cadetblue;
+  box-shadow: 2px 2px 15px;
+  width: 250px;
+  height: 350px;
+  border: 1px solid rgb(9, 207, 234);
+  border-radius: 10px;
+}
+.box2 {
+  box-shadow: 2px 2px 15px;
+  width: 250px;
+  height: 350px;
+  border: 1px solid rgb(9, 207, 234);
+  background: cadetblue;
+
+  border-radius: 10px;
+}
+.box3 {
+  background: cadetblue;
+  box-shadow: 2px 2px 15px;
+  width: 250px;
+  height: 350px;
+  border: 1px solid rgb(9, 207, 234);
+  border-radius: 10px;
+}
+#act {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 0;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.addbox {
+  margin-left: 8%;
+  width: 210px;
+  height: 220px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.l {
+  font-size: 16px;
+  font-family: cursive;
+  font-weight: bolder;
+  color: black;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+#l {
+  font-family: cursive;
+  padding-top: 5px;
+  margin-left: 13px;
+  width: 170px;
+  height: 20px;
+  background: transparent;
+}
+
+.b {
+  font-size: 16px;
+  font-family: cursive;
+  font-weight: bolder;
+  color: black;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+#b {
+  font-family: cursive;
+  padding-top: 5px;
+  margin-left: 13px;
+  width: 170px;
+  height: 20px;
+  background: transparent;
+  text-align: center;
+}
+
+.lb {
+  font-size: 16px;
+  font-family: cursive;
+  font-weight: bolder;
+  color: black;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+#lb {
+  font-family: cursive;
+  padding-top: 5px;
+  margin-left: 13px;
+  width: 170px;
+  height: 20px;
+  text-align: center;
+
+  background: transparent;
+}
+
+#bt {
+  padding: 10px 24px;
+  margin-top: 25px;
+  margin-left: 55px;
+  cursor:auto;
+  background: transparent;
+}
+
+/* Display in Active State */
+.displayData {
+  box-shadow: 1px 1px 15px lightblue;
+  width: auto;
+  height: 30px;
+  background-color: powderblue;
+  border-radius: 3px;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 3px;
+  
+}
+
+.taskname {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  font-family: cursive;
+}
+
+.taskdate {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  font-family: cursive;
+  padding: 5px;
+  
+}
+
+.taskstatus {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  padding: 5px;
+  font-family: cursive;
+}
+.dragactive{
+  background-color: rgb(108, 94, 94);
+}
+.dragPending{
+  background-color: rgb(136, 136, 76);
+
+}
+.dragComplete{
+background-color: rgb(83, 83, 152);
+}
+.isDraging{
+  transition:none;
+}
